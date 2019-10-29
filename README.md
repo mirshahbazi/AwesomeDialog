@@ -25,27 +25,22 @@ dependencies {
 ```
 
 
-# Wiki
-
-## General
-[sample module](https://github.com/blennerSilva/AwesomeDialog/tree/master/app/src/main/java/com/awesomedialog/blennersilva/awesomedialog).
-
 ### Dialog Types
 
 Each Dialog has its own top color, icon, title and message + its own featured. There are 6 types of dialogs available:
-* [AwesomeInfoDialog](#awesomeinfodialog)
-* [AwesomeErrorDialog](#awesomeerrordialog)
-* [AwesomeProgressDialog](#awesomeprogressdialog)
-* [AwesomeWarningDialog](#awesomewarningdialog)
-* [AwesomeNoticeDialog](#awesomenoticedialog)
-* [AwesomeSuccessDialog](#awesomesuccessdialog)
+* [PopInfoDialog](#awesomeinfodialog)
+* [PopErrorDialog](#awesomeerrordialog)
+* [PopProgressDialog](#awesomeprogressdialog)
+* [PopWarningDialog](#awesomewarningdialog)
+* [PopNoticeDialog](#awesomenoticedialog)
+* [PopSuccessDialog](#awesomesuccessdialog)
 
-#### AwesomeInfoDialog
+#### PopInfoDialog
 You can set posite and negative buttons here. Closures can be individually set for each button (onClick of any
 button with closure the button will be dismissed).
 
 ```java
- new AwesomeInfoDialog(this)
+ new PopInfoDialog(this)
                 .setTitle(R.string.app_name)
                 .setMessage(R.string.app_name)
                 .setColoredCircle(R.color.dialogInfoBackgroundColor)
@@ -81,11 +76,11 @@ button with closure the button will be dismissed).
                 .show();
 
 ```
-#### AwesomeErrorDialog
+#### PopErrorDialog
 Display an Error dialog with one button
 
 ```java
-  new AwesomeErrorDialog(this)
+  new PopErrorDialog(this)
                 .setTitle(R.string.app_name)
                 .setMessage(R.string.app_name)
                 .setColoredCircle(R.color.dialogErrorBackgroundColor)
@@ -102,11 +97,11 @@ Display an Error dialog with one button
                 .show();
     }
 ```
-#### AwesomeProgressDialog
+#### PopProgressDialog
 Display a Progress Dialog
 
 ```java
- new AwesomeInfoDialog(this)
+ new PopInfoDialog(this)
                 .setTitle(R.string.app_name)
                 .setMessage(R.string.app_name)
                 .setColoredCircle(R.color.dialogInfoBackgroundColor)
@@ -115,11 +110,11 @@ Display a Progress Dialog
                 .show();
 
 ```
-#### AwesomeWarningDialog
+#### PopWarningDialog
 Display Warning to user with or without button
 
 ```java
-new AwesomeWarningDialog(this)
+new PopWarningDialog(this)
                 .setTitle(R.string.app_name)
                 .setMessage(R.string.app_name)
                 .setColoredCircle(R.color.dialogNoticeBackgroundColor)
@@ -137,11 +132,11 @@ new AwesomeWarningDialog(this)
                 .show();
 
 ```
-#### AwesomeNoticeDialog
+#### PopNoticeDialog
 Display notice to user
 
 ```java
-new AwesomeNoticeDialog(this)
+new PopNoticeDialog(this)
                 .setTitle(R.string.app_name)
                 .setMessage(R.string.app_name)
                 .setColoredCircle(R.color.dialogNoticeBackgroundColor)
@@ -159,11 +154,11 @@ new AwesomeNoticeDialog(this)
                 .show();
 ```
 
-#### AwesomeSuccessDialog
+#### PopSuccessDialog
 Displays a success message, with max of three buttons
 
 ```java
-new AwesomeSuccessDialog(this)
+new PopSuccessDialog(this)
                 .setTitle(R.string.app_name)
                 .setMessage(R.string.app_name)
                 .setColoredCircle(R.color.dialogSuccessBackgroundColor)
