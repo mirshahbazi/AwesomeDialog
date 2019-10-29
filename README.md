@@ -2,7 +2,7 @@
 
 This library is a set of simple wrapper classes that was created to help you easily make SCLA like dialogs.
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AwesomeDialog-green.svg?style=true)](https://android-arsenal.com/details/1/6109)
+[![](https://jitpack.io/v/mirshahbazi/AwesomeDialog.svg)](https://jitpack.io/#mirshahbazi/AwesomeDialog)
 
 ## Gradle
 
@@ -20,7 +20,7 @@ compile on your dependencies
 
 ```
 dependencies {
-	compile 'com.github.blennerSilva:AwesomeDialog:2.0.5'
+	  implementation 'com.github.mirshahbazi:AwesomeDialog:Tag'
 }
 ```
 
@@ -212,8 +212,6 @@ new AwesomeSuccessDialog(this)
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2017-present, Blenner Silva
+Copyright (c) 2019 MAM
 
 -- 
